@@ -1,5 +1,5 @@
 # Merkle Airdrop Smart Contract
-A Solidity-based Merkle Airdrop system 
+A Solidity-based Merkle Airdrop system , that enables eligible users to claim ERC-20 tokens 
 
 
 
