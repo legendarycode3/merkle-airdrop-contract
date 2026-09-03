@@ -1,4 +1,5 @@
 # Merkle Airdrop Smart Contract
+A Solidity-based Merkle Airdrop system 
 
 
 
