@@ -1,6 +1,6 @@
 # Merkle Airdrop Smart Contract
 A Solidity-based Merkle Airdrop system , that enables eligible users to claim ERC-20 tokens using Merkle proofs and EIP-712 Signatures. </br>
-Build with `Solidity`
+Build with `Solidity`, `Foundry`, `OpenZeppelin`
 
 
 
