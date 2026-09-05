@@ -5,7 +5,7 @@ Build with `Solidity`, `Foundry`, `OpenZeppelin`, `Murky` and `Foundry DevOps`, 
 
 
 ## Project Overview
-The `Merkle Airdrop` is a soidity based 
+The `Merkle Airdrop` is a soidity based token destribution system that allows ERC-20 tokens to be claimed 
 
 
 
