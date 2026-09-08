@@ -9,7 +9,7 @@ The `Merkle Airdrop` is a soidity based token destribution system that allows ER
 Instead of storing the complete waitlist and individual token allocations directly onchain, the project uses a `Merkle tree` to effectively represent and verify claim eligibility. </br>
 The resulting `Merkle root` is stored in the `MerkleAirdrop` contract , while users provide a merkle proof to cryptographically prove that their address and allocated token amount are included in the distribution. </br>
 The claim process is secured with `EIP-712 typed structure data` and and `ECDSA signature`, allowing the contract to verify that the provided claim  authorization was signed by the eligible account.  </br>
-Once all verification checks pass, the contract marks the account as claimed
+Once all verification checks pass, the contract marks the account as claimed, emits a `Claim` event 
 
 
 
