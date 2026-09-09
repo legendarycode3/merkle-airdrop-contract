@@ -10,7 +10,7 @@ Instead of storing the complete waitlist and individual token allocations direct
 The resulting `Merkle root` is stored in the `MerkleAirdrop` contract , while users provide a merkle proof to cryptographically prove that their address and allocated token amount are included in the distribution. </br>
 The claim process is secured with `EIP-712 typed structure data` and and `ECDSA signature`, allowing the contract to verify that the provided claim  authorization was signed by the eligible account.  </br>
 Once all verification checks pass, the contract marks the account as claimed, emits a `Claim` event , and securely transfers the allocated ERC-20 tokens to the recipient using openzeppelin's `SafeERC20` implementation. </br>
-The project also includes Foundry scripts for generating Merkle tree data, deploying and funding the airdrop contract
+The project also includes Foundry scripts for generating Merkle tree data, deploying and funding the airdrop contracts, and interacting with the deployed airdrop system. 
 
 
 
