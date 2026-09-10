@@ -55,7 +55,7 @@ ERC-20 Tokens Transferred
 
 
 ## Features
-**Merkle Tree-Based  
+**Merkle Tree-Based Eligibility Verification:** 
 
 
 
