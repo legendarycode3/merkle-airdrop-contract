@@ -55,7 +55,7 @@ ERC-20 Tokens Transferred
 
 
 ## Features
-**Merkle Tree-Based Eligibility Verification:** Uses a `Merkle tree` to represent eligible addresses and their token allocations without storing  
+**Merkle Tree-Based Eligibility Verification:** Uses a `Merkle tree` to represent eligible addresses and their token allocations without storing the complete whitelist directly on-chain.
 
 
 
