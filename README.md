@@ -12,7 +12,7 @@ The claim process is secured with `EIP-712 typed structure data` and and `ECDSA 
 Once all verification checks pass, the contract marks the account as claimed, emits a `Claim` event , and securely transfers the allocated ERC-20 tokens to the recipient using openzeppelin's `SafeERC20` implementation. </br>
 The project also includes Foundry scripts for generating Merkle tree data, deploying and funding the airdrop contracts, and interacting with the deployed airdrop system.  </br>
 
-**Core Claim Flow**
+**Core Claim Flow** 
 
 ```shell
 
@@ -51,6 +51,10 @@ MerkleAirdrop.claim()
      ▼
 ERC-20 Tokens Transferred
 ```
+
+
+
+## Features
 
 
 
