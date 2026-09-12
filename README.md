@@ -60,6 +60,7 @@ ERC-20 Tokens Transferred
 * **ERC-20 Token Distribution:** Distributes ERC-20 tokens to eligible users based on the allocation encoded in their Merkle leaf.
 * **ERC-712 Typed-Data Signing:** Uses `ERC-712 structure data` to create a standardized and domain-separated 
  message for claim authoriization.
+* **ECDSA Signature Verification:** 
 
 
 ## Foundry
