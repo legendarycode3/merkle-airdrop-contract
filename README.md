@@ -61,7 +61,7 @@ ERC-20 Tokens Transferred
 * **ERC-712 Typed-Data Signing:** Uses `ERC-712 structure data` to create a standardized and domain-separated 
  message for claim authoriization.
 * **ECDSA Signature Verification:** Recovers the signer from the provided signature and verifies that it matches the eligible claiming account.
-* **Duplicate Claim Potection:** Tracks successful claims using a mapping
+* **Duplicate Claim Potection:** Tracks successful claims using a mapping to ensure that an eligble address can not claim thesame allocation more than once.
 
 
 ## Foundry
