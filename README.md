@@ -64,7 +64,7 @@ ERC-20 Tokens Transferred
 * **Duplicate Claim Potection:** Tracks successful claims using a mapping to ensure that an eligble address can not claim thesame allocation more than once.
 * **Secure ERC-20 Transfers:** Uses Openzeppelin's `SafeERC20` implementation to safely transfer tokens to successful claimants.
 * **Common Errors:** Uses Solidity `custom errors` instead of traditional revert strings to provide clearer failure conditions while reducing revert data overhead.
-* **Immutable Configuration:**
+* **Immutable Configuration:** Stores the `Merkle root` and airdrop 
 
 
 ## Foundry
