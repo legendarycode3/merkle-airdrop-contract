@@ -65,7 +65,7 @@ ERC-20 Tokens Transferred
 * **Secure ERC-20 Transfers:** Uses Openzeppelin's `SafeERC20` implementation to safely transfer tokens to successful claimants.
 * **Common Errors:** Uses Solidity `custom errors` instead of traditional revert strings to provide clearer failure conditions while reducing revert data overhead.
 * **Immutable Configuration:** Stores the `Merkle root` and airdrop token s immutable values, preventing them from been changed after deployment.
-* **Third-Party Gas Player Support:** Allows an account other than the eligible user
+* **Third-Party Gas Player Support:** Allows an account other than the eligible user to submit the claim transaction and 
 
 
 ## Foundry
