@@ -66,7 +66,8 @@ ERC-20 Tokens Transferred
 * **Common Errors:** Uses Solidity `custom errors` instead of traditional revert strings to provide clearer failure conditions while reducing revert data overhead.
 * **Immutable Configuration:** Stores the `Merkle root` and airdrop token s immutable values, preventing them from been changed after deployment.
 * **Third-Party Gas Player Support:** Allows an account other than the eligible user to submit the claim transaction and pay the gas while the allocated tokens are sent directly to the eligible account.
-* **Automated Merkle Tee Generation:** Provides foundry scripts that generates merkle leaves, proofs, and the Merkle root from predefined claim data.  
+* **Automated Merkle Tee Generation:** Provides foundry scripts that generates merkle leaves, proofs, and the Merkle root from predefined claim data.
+* **JSON-Based Testing:** 
 
 
 ## Foundry
