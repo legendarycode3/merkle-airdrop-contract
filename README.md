@@ -69,6 +69,7 @@ ERC-20 Tokens Transferred
 * **Automated Merkle Tee Generation:** Provides foundry scripts that generates merkle leaves, proofs, and the Merkle root from predefined claim data.
 * **JSON-Based Claim Data:** Generates and store Merkle input and output data in JSON file, making claim allocations  and proofs easier to inspect and manage.
 * **Automated Contract Deployment:** Includes Foundry deployment scripts for deploying the ERC-20 token , Merkle Airdrop contract and funding the airdrop with the required token allocations.
+* **Foundry-Based Testing:** Includes chain-aware
 
 
 ## Foundry
