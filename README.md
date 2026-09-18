@@ -68,7 +68,7 @@ ERC-20 Tokens Transferred
 * **Third-Party Gas Player Support:** Allows an account other than the eligible user to submit the claim transaction and pay the gas while the allocated tokens are sent directly to the eligible account.
 * **Automated Merkle Tee Generation:** Provides foundry scripts that generates merkle leaves, proofs, and the Merkle root from predefined claim data.
 * **JSON-Based Claim Data:** Generates and store Merkle input and output data in JSON file, making claim allocations  and proofs easier to inspect and manage.
-* **Automated Contract Deployment:** Includes Foundry deployment scripts  
+* **Automated Contract Deployment:** Includes Foundry deployment scripts for deploying the ERC-20 token , Merkle Airdrop contract
 
 
 ## Foundry
