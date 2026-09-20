@@ -70,7 +70,7 @@ ERC-20 Tokens Transferred
 * **JSON-Based Claim Data:** Generates and store Merkle input and output data in JSON file, making claim allocations  and proofs easier to inspect and manage.
 * **Automated Contract Deployment:** Includes Foundry deployment scripts for deploying the ERC-20 token , Merkle Airdrop contract and funding the airdrop with the required token allocations.
 * **Foundry-Based Testing:** Includes Automated Foundry tests, covering the core claim flow, including EIP-712 signing. Merkle Proof Verification, Token distibution and third party gas payment.
-* **zksync-Aware Testing:** Includes chain-aware deployment logic that supports testing the airdrop flow 
+* **zksync-Aware Testing:** Includes chain-aware deployment logic that supports testing the airdrop flow across standard EVM environments 
 
 
 ## Foundry
