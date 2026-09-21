@@ -71,7 +71,7 @@ ERC-20 Tokens Transferred
 * **Automated Contract Deployment:** Includes Foundry deployment scripts for deploying the ERC-20 token , Merkle Airdrop contract and funding the airdrop with the required token allocations.
 * **Foundry-Based Testing:** Includes Automated Foundry tests, covering the core claim flow, including EIP-712 signing. Merkle Proof Verification, Token distibution and third party gas payment.
 * **zksync-Aware Testing:** Includes chain-aware deployment logic that supports testing the airdrop flow across standard EVM environments and zksync-compatible environments.
-* **Open-Zeppelin Security Primitives:** Leverages battle-tested Openzeppelin implementations for ERC-20 , Ownable, MerkleProof,  EIP-712, ECDSA, 
+* **Open-Zeppelin Security Primitives:** Leverages battle-tested Openzeppelin implementations for `ERC-20 , Ownable, MerkleProof,  EIP-712, ECDSA, SafeERC20` functionality.
 
 
 ## Foundry
