@@ -76,6 +76,7 @@ ERC-20 Tokens Transferred
 
 
 ## Security Consideration
+* **Merkle Root Integrity:**
 
 
 
