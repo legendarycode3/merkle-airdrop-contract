@@ -76,7 +76,7 @@ ERC-20 Tokens Transferred
 
 
 ## Security Consideration
-* **Merkle Root Integrity:** The Merkle root acts as the cryptographic source of truth for eligible addresses and their token allocations. An incorrect or malicious root could result in invalid 
+* **Merkle Root Integrity:** The Merkle root acts as the cryptographic source of truth for eligible addresses and their token allocations. An incorrect or malicious root could result in invalid eligibility rules, so the root should be generated from trusted claim data and independently verified before deployment. 
 
 
 
