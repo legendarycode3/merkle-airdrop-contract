@@ -76,7 +76,7 @@ ERC-20 Tokens Transferred
 
 
 ## Security Consideration
-* **Merkle Root Integrity:**
+* **Merkle Root Integrity:** The Merkle root acts as the cryptographic source of truth for eligible addresses and  
 
 
 
