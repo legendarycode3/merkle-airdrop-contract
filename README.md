@@ -79,7 +79,7 @@ ERC-20 Tokens Transferred
 * **Merkle Root Integrity:** The Merkle root acts as the cryptographic source of truth for eligible addresses and their token allocations. An incorrect or malicious root could result in invalid eligibility rules, so the root should be generated from trusted claim data and independently verified before deployment.
 * **Merkle Proof Verification:** Each claim must include a valid Merkle proof that connects the clainment's address and allocated amount to be stored Merkle root. This prevents users from modifying their claim amount or claiming  an allocation that is not included in the configured distribution.
 * **:EIP-712 Signature Verification** Claims use EIP-712 `typed-data hashing` to produce a domain-separated claim message. The contract uses OpenZeppelin's `ECDSA` implementation to recover the signer and verifies that the recovered address matches the supplied claiming account. 
-* **Claimant Signature Requirement:** The signature verification ensures that the eligible account controls the private key associated with the address included in the claim. A third-party may submit the transaction and pay the gas, but they cannot substitute another account's signature 
+* **Claimant Signature Requirement:** The signature verification ensures that the eligible account controls the private key associated with the address included in the claim. A third-party may submit the transaction and pay the gas, but they cannot substitute another account's signature for the eligible claiment.
 
 
 
