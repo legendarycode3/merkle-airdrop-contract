@@ -81,8 +81,7 @@ ERC-20 Tokens Transferred
 * **:EIP-712 Signature Verification** Claims use EIP-712 `typed-data hashing` to produce a domain-separated claim message. The contract uses OpenZeppelin's `ECDSA` implementation to recover the signer and verifies that the recovered address matches the supplied claiming account. 
 * **Claimant Signature Requirement:** The signature verification ensures that the eligible account controls the private key associated with the address included in the claim. A third-party may submit the transaction and pay the gas, but they cannot substitute another account's signature for the eligible claiment.
 * **Double-Claim Protection:** The contract maintains a `_hasClaimed` mapping to track successfu claims. Once an account has completed a valid claim, subsequent attempts from thesame account are rejected with `MerkleAirdrop__AlreadyClaimed`.
-* **Safe ERC-20 Transfers:** Token distributions use OpenZeppelin's `SafeERC20` 
-
+* **Safe ERC-20 Transfers:** Token distributions use OpenZeppelin's `SafeERC20` library to provide safer ERC-20 transfer handling and
 
 
 ## Foundry
