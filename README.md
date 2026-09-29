@@ -84,7 +84,7 @@ ERC-20 Tokens Transferred
 * **Safe ERC-20 Transfers:** Token distributions use OpenZeppelin's `SafeERC20` library to provide safer ERC-20 transfer handling and compatibility with tokens that may not strictly follow the expected ERC-20  return-value behavior.
 * **Immutable Airdrop Configuration:** The Merkle root and airdrop token are stored as immutable values and cannot be modified after deployment. This prevent the eligibility configuration or token address from being changed after the contract has been deployed.
 * **Checks Before State Changes:** The `claim()` function performs its validation checks before making the account as claimed or transfering tokens. The contact verifies the claim status, signature, and Merkle proof before executing the successful claim state changes.
-* **Claim Amount Integrity:** The claimed token amount is included in the Merkle leaf 
+* **Claim Amount Integrity:** The claimed token amount is included in the Merkle leaf together with the claiment's address. A user therefore cannot 
 
 
 
