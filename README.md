@@ -83,7 +83,7 @@ ERC-20 Tokens Transferred
 * **Double-Claim Protection:** The contract maintains a `_hasClaimed` mapping to track successfu claims. Once an account has completed a valid claim, subsequent attempts from thesame account are rejected with `MerkleAirdrop__AlreadyClaimed`.
 * **Safe ERC-20 Transfers:** Token distributions use OpenZeppelin's `SafeERC20` library to provide safer ERC-20 transfer handling and compatibility with tokens that may not strictly follow the expected ERC-20  return-value behavior.
 * **Immutable Airdrop Configuration:** The Merkle root and airdrop token are stored as immutable values and cannot be modified after deployment. This prevent the eligibility configuration or token address from being changed after the contract has been deployed.
-* **Checks Before State Changes:** The `claim()` function performs its validation checks before making the account as claimed or transfering tokens. The contact verifies the claim status
+* **Checks Before State Changes:** The `claim()` function performs its validation checks before making the account as claimed or transfering tokens. The contact verifies the claim status, signature, and Merkle proof before executing the successful claim state changes.
 
 
 
