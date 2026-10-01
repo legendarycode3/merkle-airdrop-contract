@@ -85,7 +85,8 @@ ERC-20 Tokens Transferred
 * **Immutable Airdrop Configuration:** The Merkle root and airdrop token are stored as immutable values and cannot be modified after deployment. This prevent the eligibility configuration or token address from being changed after the contract has been deployed.
 * **Checks Before State Changes:** The `claim()` function performs its validation checks before making the account as claimed or transfering tokens. The contact verifies the claim status, signature, and Merkle proof before executing the successful claim state changes.
 * **Claim Amount Integrity:** The claimed token amount is included in the Merkle leaf together with the claiment's address. A user therefore cannot simply request a larger allocation without possessing a valid merkle proof coressponding to that address and amount.
-* **Reply Protection Through Claim Tracking:** Even when a valid signature and Merkle  proof are reused, the `s_hasClaimed` mapping prevents thesame account from successfully claiming claiming multiple times from thesame deployed airdrop contract. 
+* **Reply Protection Through Claim Tracking:** Even when a valid signature and Merkle  proof are reused, the `s_hasClaimed` mapping prevents thesame account from successfully claiming claiming multiple times from thesame deployed airdrop contract.
+* **EIP-712 Domain Separation:** 
 
 
 
