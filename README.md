@@ -86,7 +86,7 @@ ERC-20 Tokens Transferred
 * **Checks Before State Changes:** The `claim()` function performs its validation checks before making the account as claimed or transfering tokens. The contact verifies the claim status, signature, and Merkle proof before executing the successful claim state changes.
 * **Claim Amount Integrity:** The claimed token amount is included in the Merkle leaf together with the claiment's address. A user therefore cannot simply request a larger allocation without possessing a valid merkle proof coressponding to that address and amount.
 * **Reply Protection Through Claim Tracking:** Even when a valid signature and Merkle  proof are reused, the `s_hasClaimed` mapping prevents thesame account from successfully claiming claiming multiple times from thesame deployed airdrop contract.
-* **EIP-712 Domain Separation:** The contract uses an EIP-712 domain with a name `MerkleAirdrop` , helping ensure that signed claim messages are associated with intended 
+* **EIP-712 Domain Separation:** The contract uses an EIP-712 domain with a name `MerkleAirdrop` , helping ensure that signed claim messages are associated with intended signing domain , rather than being treated as generic signature.
 
 
 
