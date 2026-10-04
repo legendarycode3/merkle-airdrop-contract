@@ -89,7 +89,7 @@ ERC-20 Tokens Transferred
 * **EIP-712 Domain Separation:** The contract uses an EIP-712 domain with a name `MerkleAirdrop` , helping ensure that signed claim messages are associated with intended signing domain , rather than being treated as generic signature.
 * **Trusted Off-Chain Merkle Generation:** The security of the distribution depends partly on the correctness of the off-chain Merkle tree generation process. The generated leaves, proofs, allocations, and final root should be verified before the root is deployed.
 * **Airdrop Funding Requirement:** Thecontract must holda sufficient balance of the configured ERC-20 token to fulfil the valid claims. If the contract is underfunded , otherwise valid claims can fail when the token transfer is attempted.
-* **Trusted Off-Chain Merkle Generation**:
+* **Trusted Off-Chain Merkle Generation**: The security of the distribution depends partly on the correctness
 
 
 
