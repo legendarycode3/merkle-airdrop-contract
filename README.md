@@ -90,7 +90,7 @@ ERC-20 Tokens Transferred
 * **Trusted Off-Chain Merkle Generation:** The security of the distribution depends partly on the correctness of the off-chain Merkle tree generation process. The generated leaves, proofs, allocations, and final root should be verified before the root is deployed.
 * **Airdrop Funding Requirement:** Thecontract must holda sufficient balance of the configured ERC-20 token to fulfil the valid claims. If the contract is underfunded , otherwise valid claims can fail when the token transfer is attempted.
 * **Trusted Off-Chain Merkle Generation**: The security of the distribution depends partly on the correctness of the off-chain Merkle tree generation process. The generated leaves , proofs, allocations, and confiiguration values. Production deployments should use secure key management and must never expose private keys.
-* **Secure Development Credentials**:
+* **Secure Development Credentials**: Development scripts may contain test addresses , signatures
 
 
 
