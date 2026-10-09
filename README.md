@@ -77,7 +77,7 @@ ERC-20 Tokens Transferred
 
 ## Smart Contracts
 **MerkleAirdrop.sol - Airdrop Distribution and Claim Verification** 
-The core contract responsible for claim eligibiity
+The core contract responsible for claim eligibiity, validating EIP-712 signatures, 
 
 
 
