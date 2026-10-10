@@ -78,7 +78,7 @@ ERC-20 Tokens Transferred
 ## Smart Contracts
 **MerkleAirdrop.sol - Airdrop Distribution and Claim Verification** 
 The core contract responsible for claim eligibiity, validating EIP-712 signatures, preventing duplicate  claims, and distributing ERC-20 tokens to eligible accounts. 
-The contract combines `Merkle proof verification,  EIP-712 typed-data hashing, and ECDSA signature recovery` to ensure that a claim satisfiesthe required eligibility
+The contract combines `Merkle proof verification,  EIP-712 typed-data hashing, and ECDSA signature recovery` to ensure that a claim satisfiesthe required eligibility and authorization checks before tokens are transfered.
 
 
 
