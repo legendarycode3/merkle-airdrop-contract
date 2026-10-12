@@ -82,6 +82,7 @@ The contract combines `Merkle proof verification,  EIP-712 typed-data hashing, a
 
 Key Responsibilites Include: </br>
 * **Merkle Root Management** Stores the immutable Merkle root used to verify eligible addresses and their token allocations.
+* **Claim Verification:**
 
 
 
