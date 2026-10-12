@@ -81,7 +81,7 @@ The core contract responsible for claim eligibiity, validating EIP-712 signature
 The contract combines `Merkle proof verification,  EIP-712 typed-data hashing, and ECDSA signature recovery` to ensure that a claim satisfiesthe required eligibility and authorization checks before tokens are transfered. </br>
 
 Key Responsibilites Include: </br>
-* **Merkle Root Management**
+* **Merkle Root Management** Stores the immutable Merkle root used to verify eligible addresses and their token allocations.
 
 
 
