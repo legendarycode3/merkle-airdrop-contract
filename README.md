@@ -85,6 +85,7 @@ Key Responsibilites Include: </br>
 * **Claim Verification:** Validates each submitted  Merkle Proof against the stored root to comfirm that the claiment and requested amount belong to the distribution.
 * **Signature Verification:** Uses EIP-712 and ECDSA  to verify that the provided signature was produced by the private key associated with the claiming account.
 * **Duplicate Claim Prevention:** Tracks successful claims using a mapping to prevent thesame address from claiming more than once.
+* **ERC-20 Token Distribution:**
 
 
 
