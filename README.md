@@ -84,6 +84,7 @@ Key Responsibilites Include: </br>
 * **Merkle Root Management** Stores the immutable Merkle root used to verify eligible addresses and their token allocations.
 * **Claim Verification:** Validates each submitted  Merkle Proof against the stored root to comfirm that the claiment and requested amount belong to the distribution.
 * **Signature Verification:** Uses EIP-712 and ECDSA  to verify that the provided signature was produced by the private key associated with the claiming account.
+* **Duplicate Claim Prevention:**
 
 
 
