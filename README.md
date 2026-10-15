@@ -86,7 +86,7 @@ Key Responsibilites Include: </br>
 * **Signature Verification:** Uses EIP-712 and ECDSA  to verify that the provided signature was produced by the private key associated with the claiming account.
 * **Duplicate Claim Prevention:** Tracks successful claims using a mapping to prevent thesame address from claiming more than once.
 * **ERC-20 Token Distribution:** Transfers he allocated tokens to the eligible account using OpenZeppelin's SafeERC20 library.
-* **Claim Event Emission:**
+* **Claim Event Emission:** Emits a claim event after successful verification to support transaction tracking and event monitoring.
 
 
 
