@@ -87,6 +87,7 @@ Key Responsibilites Include: </br>
 * **Duplicate Claim Prevention:** Tracks successful claims using a mapping to prevent thesame address from claiming more than once.
 * **ERC-20 Token Distribution:** Transfers he allocated tokens to the eligible account using OpenZeppelin's SafeERC20 library.
 * **Claim Event Emission:** Emits a claim event after successful verification to support transaction tracking and event monitoring.
+* **Custom Error Handling:** Uses custom errors to identify invalid proofs , previously claimed allocations, and invalid signature.
 
 
 
