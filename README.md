@@ -90,6 +90,7 @@ Key Responsibilites Include: </br>
 * **Custom Error Handling:** Uses custom errors to identify invalid proofs , previously claimed allocations, and invalid signature. </br>
 
 The contract uses the followning OpenZeppeling components: </br>
+* MerkleProof - verifies Merkle proofs against the configured root.
 
 
 
