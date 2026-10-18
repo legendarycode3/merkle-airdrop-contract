@@ -92,6 +92,7 @@ Key Responsibilites Include: </br>
 The contract uses the followning OpenZeppeling components: </br>
 * MerkleProof - verifies Merkle proofs against the configured root.
 * EIP712 - constructs domain-separated typed-data hashes for claim signatures.
+* ECDSA - recovers the signer from the provided signature.
 
 
 
