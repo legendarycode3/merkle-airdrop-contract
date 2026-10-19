@@ -95,6 +95,8 @@ The contract uses the followning OpenZeppeling components: </br>
 * ECDSA - recovers the signer from the provided signature.
 * SafeERC20 - provides safer ERC-20 token transfer handling.
 
+The Merkle root and token address
+
 
 
 ## Security Consideration
