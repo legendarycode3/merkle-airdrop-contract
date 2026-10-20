@@ -98,6 +98,7 @@ The contract uses the followning OpenZeppeling components: </br>
 The Merkle root and token address are immutable after deployment , making the airdrop configuration fixed for the lifetime of the contract.
 
 **BagelToken.sol  - ERC20 Airdrop Token** </br>
+A stable mintable ERC-20 token contract that serves as the distribution token for the airdrop
 
 
 
