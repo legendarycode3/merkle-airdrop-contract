@@ -101,7 +101,7 @@ The Merkle root and token address are immutable after deployment , making the ai
 A stable mintable ERC-20 token contract that serves as the distribution token for the airdrop system. It inherits OpenZeppelin's ERC20 and ownable contracts to provide standard token functionality and access- controlled minting.
 
 Key Responsibilities Include: </br>
-* **ERC-20 Token Functionality**:
+* **ERC-20 Token Functionality**: Inherits standard ERC-20 behavior , including token transfers
 
 
 
