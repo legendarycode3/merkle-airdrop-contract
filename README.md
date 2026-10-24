@@ -102,7 +102,7 @@ A stable mintable ERC-20 token contract that serves as the distribution token fo
 
 Key Responsibilities Include: </br>
 * **ERC-20 Token Functionality**: Inherits standard ERC-20 behavior , including token transfers , balances and allowances.
-* **Owner-Restricted Minting**: Implement a mint() function 
+* **Owner-Restricted Minting**: Implement a mint() function protected by onlyOwner , allowing ony the token owner
 
 
 
