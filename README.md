@@ -104,7 +104,7 @@ Key Responsibilities Include: </br>
 * **ERC-20 Token Functionality**: Inherits standard ERC-20 behavior , including token transfers , balances and allowances.
 * **Owner-Restricted Minting**: Implement a mint() function protected by onlyOwner , allowing ony the token owner to create additional tokens.
 * **Airdrop Funding**: Supplies the tokens that are transferred to the MerkleAirdrop contract for distribution to claiments.
-* **Development and Testing**: Provides a simple token impplementation for demonstrating the deployment ,
+* **Development and Testing**: Provides a simple token impplementation for demonstrating the deployment , funding and claiming workflow.
 
 
 
