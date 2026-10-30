@@ -106,7 +106,7 @@ Key Responsibilities Include: </br>
 * **Airdrop Funding**: Supplies the tokens that are transferred to the MerkleAirdrop contract for distribution to claiments.
 * **Development and Testing**: Provides a simple token impplementation for demonstrating the deployment , funding and claiming workflow.
   
-The BagelToken contract is intended primarily as demonstraction and testing token for this project. 
+The BagelToken contract is intended primarily as demonstraction and testing token for this project. A production deployment should use a token whose functionality
 
 
 ## Security Consideration
