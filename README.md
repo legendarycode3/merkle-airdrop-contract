@@ -111,6 +111,7 @@ The BagelToken contract is intended primarily as demonstraction and testing toke
 
 
 ## Project Structure
+The project follows a modular foundry directory structure , 
 
 
 
