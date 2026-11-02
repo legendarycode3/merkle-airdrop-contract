@@ -112,6 +112,36 @@ The BagelToken contract is intended primarily as demonstraction and testing toke
 
 ## Project Structure
 The project follows a modular foundry directory structure , separating smart contracts, deployment scripts, Merkle tree generation , automated tests,, and project dependencies.  
+```shell
+     merkle-airdrop/
+│
+├── src/                              # Smart contract source files
+│   ├── BagelToken.sol                # ERC-20 token used for the airdrop
+│   └── MerkleAirdrop.sol             # Core airdrop and claim verification contract
+│
+├── script/                           # Deployment and automation scripts
+│   ├── DeployMerkleAirdrop.s.sol     # Deploys and funds the airdrop contracts
+│   ├── GenerateInput.s.sol           # Generates the initial whitelist JSON
+│   ├── MakeMerkle.s.sol              # Generates Merkle root, leaves, and proofs
+│   ├── Interact.s.sol                # Interacts with the deployed airdrop contract
+│   │
+│   └── target/                       # Generated Merkle tree data
+│       ├── input.json                # Whitelist addresses and token allocations
+│       └── output.json               # Generated Merkle root, leaves, and proofs
+│
+├── test/                             # Automated smart contract tests
+│   └── MerkleAirdrop.t.sol           # Merkle Airdrop contract test suite
+│
+├── lib/                              # External Foundry dependencies
+│   ├── forge-std/                    # Foundry testing and scripting utilities
+│   ├── foundry-devops/               # Deployment and chain utilities
+│   └── murky/                        # Merkle tree generation library
+│
+├── .gitignore                        # Files and directories excluded from Git
+├── foundry.toml                      # Foundry project configuration
+├── LICENSE                           # Project license
+└── README.md                         # Project documentation
+```
 
 
 
