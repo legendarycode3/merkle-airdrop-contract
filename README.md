@@ -144,7 +144,7 @@ The project follows a modular foundry directory structure , separating smart con
 ```
 
 ### Directories Responsibilities 
-* **src/ — Smart Contracts:**
+* **src/ — Smart Contracts:** Contains the Solidity source files, 
 
 
 
