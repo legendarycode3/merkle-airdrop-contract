@@ -143,6 +143,8 @@ The project follows a modular foundry directory structure , separating smart con
 └── README.md                         # Project documentation
 ```
 
+### Directories Responsibilities 
+
 
 
 ## Security Consideration
