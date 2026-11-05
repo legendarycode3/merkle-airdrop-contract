@@ -145,7 +145,7 @@ The project follows a modular foundry directory structure , separating smart con
 
 ### Directories Responsibilities 
 * **src/ — Smart Contracts:** Contains the Solidity source files, including the core Merkle Airdrop contract and the ERC-20 token contract.
-* **script/ — Deployment and Automation:** Contains Foundry scripts for generating whitelist data  
+* **script/ — Deployment and Automation:** Contains Foundry scripts for generating whitelist data , constructing Merkle trees, deploying ontracts 
 
 
 
