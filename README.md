@@ -147,6 +147,7 @@ The project follows a modular foundry directory structure , separating smart con
 * **src/ — Smart Contracts:** Contains the Solidity source files, including the core Merkle Airdrop contract and the ERC-20 token contract.
 * **script/ — Deployment and Automation:** Contains Foundry scripts for generating whitelist data , constructing Merkle trees, deploying ontracts , funding the airdrop and executing the claim transactions.
 * **script/target/ — Generate Merkle Data:** Stores the JSON input and output files containning the whitelist, toke allocations, Merkle root, leaves, and corresponding proofs.
+* **test/ — Automated Testing:**
 
 
 
@@ -167,6 +168,7 @@ The project follows a modular foundry directory structure , separating smart con
 * **Trusted Off-Chain Merkle Generation**: The security of the distribution depends partly on the correctness of the off-chain Merkle tree generation process. The generated leaves , proofs, allocations, and final root should be verified before the root is deployed.
 * **Secure Development Credentials**: Development scripts may contain test addresses , signatures and configuration values. Production deployment should use secure key management and must never expose private keys or sensitive credentials in source code or version control.
 * **Production Security Review:** Although the implementation uses established Openzeppelin cryptograhic and token-handling primitives,  the contract should undergo appropiate testing and an independent security review before being used to distribute valuable assets in production.
+
 
 
 
