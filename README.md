@@ -148,7 +148,7 @@ The project follows a modular foundry directory structure , separating smart con
 * **script/ — Deployment and Automation:** Contains Foundry scripts for generating whitelist data , constructing Merkle trees, deploying ontracts , funding the airdrop and executing the claim transactions.
 * **script/target/ — Generate Merkle Data:** Stores the JSON input and output files containning the whitelist, toke allocations, Merkle root, leaves, and corresponding proofs.
 * **test/ — Automated Testing:**  Contains Foundry test cases for validating contract deployment, signature verification, Merkle proof verification, claim execution , and token distribution.
-* **Lib/ —  External Dependencies:**
+* **Lib/ —  External Dependencies:** Contains the external libraries and development utilities installed through Foundry
 
 
 
