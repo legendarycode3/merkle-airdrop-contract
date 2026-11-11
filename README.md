@@ -150,6 +150,7 @@ The project follows a modular foundry directory structure , separating smart con
 * **test/ — Automated Testing:**  Contains Foundry test cases for validating contract deployment, signature verification, Merkle proof verification, claim execution , and token distribution.
 * **Lib/ —  External Dependencies:** Contains the external libraries and development utilities installed through Foundry, including Forge Standard Library , FOundry DevOps and Murky.
 * **Foundry.toml — Project Configuration:** Defines foundry settings, including solidity compiler configuration, source directories, test paths, and dependency settings.
+* **README.md —  Project Documentation:** 
 
 
 
