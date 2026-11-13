@@ -156,7 +156,7 @@ The project follows a modular foundry directory structure , separating smart con
 
 
 ## Gas Optimization
-The project incorporates several Solidity and smart contract design techniques aimed at reducing unnecessary on-chain storage, minimizing execution overhead, and  
+The project incorporates several Solidity and smart contract design techniques aimed at reducing unnecessary on-chain storage, minimizing execution overhead, and  improving the efficiency of the token distribution process.
 
 
 
