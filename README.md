@@ -157,7 +157,7 @@ The project follows a modular foundry directory structure , separating smart con
 
 ## Gas Optimization
 The project incorporates several Solidity and smart contract design techniques aimed at reducing unnecessary on-chain storage, minimizing execution overhead, and  improving the efficiency of the token distribution process.
-1. **Immutable State Variables**: The Merkle root and ERC-20 token address are declared as immutable because their values are 
+1. **Immutable State Variables**: The Merkle root and ERC-20 token address are declared as immutable because their values are established during contract deployment and remain unchanged throughout the contract's lifetime.
 
 
 
