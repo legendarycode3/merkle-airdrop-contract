@@ -158,7 +158,7 @@ The project follows a modular foundry directory structure , separating smart con
 ## Gas Optimization
 The project incorporates several Solidity and smart contract design techniques aimed at reducing unnecessary on-chain storage, minimizing execution overhead, and  improving the efficiency of the token distribution process.
 1. **Immutable State Variables**: The Merkle root and ERC-20 token address are declared as immutable because their values are established during contract deployment and remain unchanged throughout the contract's lifetime.
-2. **Custom Error Handling:** The contract uses Solidity custom errors instead of traditional revert strings to handle unsuccessful claim attempts. Custom errors return encoded error identifiers rather than descriptive string messages, reducing the amount of revert data required when a transaction fails. They also provide clearly defined failure conditions for invalid Merkle proofs, previously claimed allocations, and invalid signatures, 
+2. **Custom Error Handling:** The contract uses Solidity custom errors instead of traditional revert strings to handle unsuccessful claim attempts. Custom errors return encoded error identifiers rather than descriptive string messages, reducing the amount of revert data required when a transaction fails. They also provide clearly defined failure conditions for invalid Merkle proofs, previously claimed allocations, and invalid signatures, making error handling more efficient and easier to maintain.
 
 
 
