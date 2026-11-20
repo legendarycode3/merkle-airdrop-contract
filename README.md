@@ -159,7 +159,7 @@ The project follows a modular foundry directory structure , separating smart con
 The project incorporates several Solidity and smart contract design techniques aimed at reducing unnecessary on-chain storage, minimizing execution overhead, and  improving the efficiency of the token distribution process.
 1. **Immutable State Variables**: The Merkle root and ERC-20 token address are declared as immutable because their values are established during contract deployment and remain unchanged throughout the contract's lifetime.
 2. **Custom Error Handling:** The contract uses Solidity custom errors instead of traditional revert strings to handle unsuccessful claim attempts. Custom errors return encoded error identifiers rather than descriptive string messages, reducing the amount of revert data required when a transaction fails. They also provide clearly defined failure conditions for invalid Merkle proofs, previously claimed allocations, and invalid signatures, making error handling more efficient and easier to maintain.
-3. **Merkle Tree-Based Eligibility Verification:** The project uses Merkle tree to represent the complete whitelist of eligible addresses and thier token allocations without storing every entry directly in a contract storage. Instead, only the Merkle rootis stored in the MerkleAirdrop contract, while each claiment supplies a corresponding Merkle proof during the claim process.
+3. **Merkle Tree-Based Eligibility Verification:** The project uses Merkle tree to represent the complete whitelist of eligible addresses and thier token allocations without storing every entry directly in a contract storage. Instead, only the Merkle rootis stored in the MerkleAirdrop contract, while each claiment supplies a corresponding Merkle proof during the claim process.  This significantly reduced the storage requirements and transaction cost associated with maintaining a complete on-chain whitelist , making the distribution system more scalable as the number of eligible participants increases.
 
 
 
@@ -180,7 +180,7 @@ The project incorporates several Solidity and smart contract design techniques a
 * **Airdrop Funding Requirement:** Thecontract must holda sufficient balance of the configured ERC-20 token to fulfil the valid claims. If the contract is underfunded , otherwise valid claims can fail when the token transfer is attempted.
 * **Trusted Off-Chain Merkle Generation**: The security of the distribution depends partly on the correctness of the off-chain Merkle tree generation process. The generated leaves , proofs, allocations, and final root should be verified before the root is deployed.
 * **Secure Development Credentials**: Development scripts may contain test addresses , signatures and configuration values. Production deployment should use secure key management and must never expose private keys or sensitive credentials in source code or version control.
-* **Production Security Review:** Although the implementation uses established Openzeppelin cryptograhic and token-handling primitives,  the contract should undergo appropiate testing and an independent security review before being used to distribute valuable assets in production. This significantly reduced the storage requirements 
+* **Production Security Review:** Although the implementation uses established Openzeppelin cryptograhic and token-handling primitives,  the contract should undergo appropiate testing and an independent security review before being used to distribute valuable assets in production.
 
 
 
