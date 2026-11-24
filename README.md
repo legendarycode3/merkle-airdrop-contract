@@ -160,7 +160,7 @@ The project incorporates several Solidity and smart contract design techniques a
 1. **Immutable State Variables**: The Merkle root and ERC-20 token address are declared as immutable because their values are established during contract deployment and remain unchanged throughout the contract's lifetime.
 2. **Custom Error Handling:** The contract uses Solidity custom errors instead of traditional revert strings to handle unsuccessful claim attempts. Custom errors return encoded error identifiers rather than descriptive string messages, reducing the amount of revert data required when a transaction fails. They also provide clearly defined failure conditions for invalid Merkle proofs, previously claimed allocations, and invalid signatures, making error handling more efficient and easier to maintain.
 3. **Merkle Tree-Based Eligibility Verification:** The project uses Merkle tree to represent the complete whitelist of eligible addresses and thier token allocations without storing every entry directly in a contract storage. Instead, only the Merkle rootis stored in the MerkleAirdrop contract, while each claiment supplies a corresponding Merkle proof during the claim process.  This significantly reduced the storage requirements and transaction cost associated with maintaining a complete on-chain whitelist , making the distribution system more scalable as the number of eligible participants increases.
-4. **Off-Chain Merkle Tree Generation:**
+4. **Off-Chain Merkle Tree Generation:** Merkle tree construction, leaf hashing, and proof generation are performed off-chain using Foundry  script and  
 
 
 
